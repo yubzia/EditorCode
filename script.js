@@ -5,6 +5,8 @@ var editor = document.getElementById("editor");
 
 play.onclick = ()=>{
     result.innerHTML = editor.value;
+        localStorage.setItem("Codes" , editor.value);
+
 }
 
 remove.onclick = ()=>{
