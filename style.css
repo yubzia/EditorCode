@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin-top: 4px;
+    text-align: center;
+}
+#editor{
+    width: 99.3%;
+    height: 330px;
+    border-radius: 3px;
+    border: 2px solid rgb(102, 102, 102);
+    outline: none;
+    padding: 12px;
+    font-size: 13px;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(11, 10, 90);
+    text-decoration: none;
+}
+#btns{
+   display: flex;
+   justify-content: space-evenly;
+}
+#btns button{
+    width: 32%;
+    border: none;
+    border-radius: 12px;
+    padding: 14px;
+    color: white;
+    font-family: 'Tajawal', sans-serif;
+    margin: 10px 14px;
+}
+#btns #play{
+    background-color: rgb(243, 55, 55);
+    font-size: 15px;
+}
+#btns #remove{
+    background-color: rgb(19, 18, 18);
+}
+/* #btns #copy{
+    background-color: rgb(60, 224, 95);
+} */
+#btns #play:hover{
+    color: rgb(243, 55, 55);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(243, 55, 55);
+    padding: 12px;
+}
+#btns #remove:hover{
+    color: rgb(19, 18, 18);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(19, 18, 18);
+    padding: 12px;
+}
+/* #btns #copy:hover{
+    color: rgb(60, 224, 95);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(60, 224, 95);
+    padding: 12px;
+} */
+#title{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px solid rgb(19, 18, 18);
+    margin: 8px 0px;
+}
+#title{
+    text-align: center;
+}
+#result{
+    max-width: 100% !important;
+    height: 200px;
+    margin: auto;
+    padding: 16px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: rgb(167, 167, 167);
+    border-radius: 12px
+}
+::-webkit-scrollbar-thumb:hover{
+    width: 10px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 12px
+}
